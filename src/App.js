@@ -11,7 +11,7 @@ function App() {
         <h1>Atom Todo List</h1>
       </header>
       <Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText}/>
-      <TodoList />
+      <TodoList todos={todos} />
     </div>
   );
 }
